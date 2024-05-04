@@ -16,7 +16,7 @@ class TopicService(
 ) {
 
     companion object {
-        const val NOTFOUND = "Tópico Não Encontrado!"
+        const val NOTFOUND = "Tópico Não Encontrado!!!"
     }
 
     fun list(nameCourse: String?): List<TopicView> {
